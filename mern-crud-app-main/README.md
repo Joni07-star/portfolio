@@ -36,7 +36,7 @@ npm install
 npm run dev
 ```
 
-The API runs at `http://localhost:3000` by default.
+The API runs at https://badri-crud-backend.onrender.com
 
 ### 2. Start the frontend
 
@@ -47,7 +47,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite in your browser. The frontend currently sends API requests to `http://localhost:3000`.
+Open the local URL printed by Vite in your browser. The frontend currently sends API requests to `https://badri-crud-backend.onrender.com`.
 
 ## Frontend routes
 
