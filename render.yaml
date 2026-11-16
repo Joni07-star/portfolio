@@ -1,7 +1,7 @@
 services:
   # Existing MERN CRUD app
   - type: web
-    name: badri-crud-backend
+    name: joni-crud-backend
     runtime: node
     plan: free
     rootDir: mern-crud-app-main/backend
@@ -9,7 +9,7 @@ services:
     startCommand: npm start
 
   - type: web
-    name: badri-crud-frontend
+    name: joni-crud-frontend
     runtime: static
     rootDir: mern-crud-app-main/frontend
     buildCommand: npm install && npm run build
@@ -21,7 +21,7 @@ services:
 
   # Additional Node apps
   - type: web
-    name: badri-mongodb-express
+    name: joni-mongodb-express
     runtime: node
     plan: free
     rootDir: mongodb-express-app-main
@@ -29,7 +29,7 @@ services:
     startCommand: node app.js
 
   - type: web
-    name: badri-mvc-auth
+    name: joni-mvc-auth
     runtime: node
     plan: free
     rootDir: mvc-auth-app-main
@@ -37,7 +37,7 @@ services:
     startCommand: node server.js
 
   - type: web
-    name: badri-mvc-express
+    name: joni-mvc-express
     runtime: node
     plan: free
     rootDir: mvc-express-app-main
@@ -45,7 +45,7 @@ services:
     startCommand: node server.js
 
   - type: web
-    name: badri-products
+    name: joni-products
     runtime: node
     plan: free
     rootDir: products-file-persistence-app-main
@@ -54,7 +54,7 @@ services:
 
   # React examples
   - type: web
-    name: badri-conditional-rendering
+    name: joni-conditional-rendering
     runtime: static
     rootDir: react-conditional-rendering-app-main
     buildCommand: npm install && npm run build
@@ -65,7 +65,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-form-events
+    name: joni-form-events
     runtime: static
     rootDir: react-form-events-app-main
     buildCommand: npm install && npm run build
@@ -76,7 +76,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-frontend-crud
+    name: joni-frontend-crud
     runtime: static
     rootDir: react-frontend-crud-app-main
     buildCommand: npm install && npm run build
@@ -87,7 +87,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-html-render
+    name: joni-html-render
     runtime: static
     rootDir: react-html-render-app-main
     buildCommand: npm install && npm run build
@@ -98,7 +98,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-jsx-render
+    name: joni-jsx-render
     runtime: static
     rootDir: react-jsx-render-app-main
     buildCommand: npm install && npm run build
@@ -109,7 +109,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-nested-components
+    name: joni-nested-components
     runtime: static
     rootDir: react-nested-components-app-main
     buildCommand: npm install && npm run build
@@ -120,7 +120,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-rendering-lists
+    name: joni-rendering-lists
     runtime: static
     rootDir: react-rendering-lists-app-main
     buildCommand: npm install && npm run build
@@ -131,7 +131,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-router
+    name: joni-router
     runtime: static
     rootDir: react-router-app-main
     buildCommand: npm install && npm run build
@@ -142,7 +142,7 @@ services:
         destination: /index.html
 
   - type: web
-    name: badri-state-events
+    name: joni-state-events
     runtime: static
     rootDir: react-state-events-app-main
     buildCommand: npm install && npm run build
